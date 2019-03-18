@@ -1,0 +1,26 @@
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $bc-style;
+  z-index: 99;
+  .p-page-header {
+    .p-menu {
+      text-align: right;
+      @include flexbox;
+      width: calc(100% - 100px);
+      @include justify-content(flex-end);
+      @include align-items(center);
+      .item-menu {
+        display: inline;
+        padding-left: 20px;
+        .link-menu {
+          text-transform: uppercase;
+          color: $cl-style;
+          @include rem("font-size", 15);
+        }
+      }
+    }
+  }
+}
