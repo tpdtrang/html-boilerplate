@@ -1,0 +1,13 @@
+button {
+    background-color: $bc-style;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    color: $cl-style;
+    font-size: 13px;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    &:hover {
+      border: 2px solid #999;
+    }
+  }
+  
