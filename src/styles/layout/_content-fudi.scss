@@ -1,0 +1,33 @@
+.content-fudiapp-container {
+  padding-top: 50px;
+  background-color: $bc-f7-style;
+  .p-page-fudiapp {
+    .p-image {
+      width: 80%;
+      .img-content {
+        margin-left: 50px;
+      }
+    }
+    .p-text-fudi {
+      margin-left: 50px;
+      .p-title {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        .heading-3 {
+          font-family: "Lato Bold";
+          @include rem("font-size", 18);
+          text-transform: uppercase;
+          color: $cl-bl-style;
+        }
+      }
+      .p-text {
+        .fudi-text {
+          font-family: "Lato Reg";
+          @include rem("font-size", 16);
+          color: $cl-bl-style;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
