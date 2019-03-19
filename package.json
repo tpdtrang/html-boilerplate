@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "bootstrap": "^4.2.1",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.14.3"
+    "jquery": "^2.2.0",
+    "popper.js": "^1.14.3",
+    "slick-carousel": "^1.8.1"
   }
 }
