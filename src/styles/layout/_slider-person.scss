@@ -1,34 +1,51 @@
 .slider-container {
   width: 100%;
-  height: 80vh;
-  .p-slider {
+  height: 100%;
+  .p-page-slider {
     position: relative;
-    text-align: center;
-    .img-backg {
-      width: 100%;
-      height: 80vh;
-    }
-    .caption-item {
-      @include flexbox;
-      @include align-items(center);
-      @include flex-direction(column);
-      @include justify-content(center);
-      text-align: center;
-      position: absolute;
-      top: 20%;
-      width: 100%;
-      .p-text-person {
-        .text-person {
-          @include rem("font-size", 30);
-          color: $cl-style;
-          font-family: "Lato Reg";
+    background-image: url("../../images/blue.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    // &::after {
+    //   position: absolute;
+    //   content: "";
+    //   width: 100%;
+    //   height: 100%;
+    //   left: 0;
+    //   top: 0;
+    //   background-image: url("../../images/shadow-slider.png");
+    //   background-repeat: no-repeat;
+    //   background-size: 50% 100%;
+    //   background-position: center center;
+      
+    // }
+    .p-slider {
+      position: relative;
+      height: 400px;   
+      .caption-item {
+        @include flexbox;
+        @include align-items(center);
+        @include flex-direction(column);
+        @include justify-content(center);
+        text-align: center;
+        position: absolute;
+        top: 20%;
+        left: 0;
+        width: 100%;
+
+        .p-text-person {
+          .text-person {
+            @include rem("font-size", 30);
+            color: $cl-style;
+            font-family: "Lato Reg";
+          }
         }
-      }
-      .p-sp-person {
-        .sp-person {
-          @include rem("font-size", 18);
-          color: $cl-style;
-          font-family: "Lato Reg";
+        .p-sp-person {
+          .sp-person {
+            @include rem("font-size", 18);
+            color: $cl-style;
+            font-family: "Lato Reg";
+          }
         }
       }
     }
