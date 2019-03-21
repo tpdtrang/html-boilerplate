@@ -1,0 +1,46 @@
+.cuisines-container {
+  padding-top: 50px;
+  .p-title-main {
+    margin-bottom: 30px;
+    .heading-3 {
+      text-transform: uppercase;
+      color: $cl-bl-style;
+      font-weight: 500;
+      font-family: "Lato Bold";
+    }
+  }
+  .p-img {
+    @include flexbox;
+    flex-wrap: wrap;
+    .image-eat {
+      height: 200px;
+      width: 20%;
+      background-size: 100% 100%;
+      transition: all 0.5s ease-in-out;
+      &:hover {
+        background-size: 110% 110%;
+        cursor: pointer;
+        .p-title {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+      .p-title {
+        position: relative;
+        top: 30%;
+        text-align: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+        .sp-eat {
+          font-style: italic;
+          color: $cl-style;
+        }
+        .heading-4 {
+          color: $cl-style;
+          @include rem("font-size", 30);
+        }
+      }
+    }
+  }
+}
