@@ -1,5 +1,5 @@
 .content-fudiapp-container {
-  padding-top: 50px;
+  padding-top: 110px;
   background-color: $bc-f7-style;
   .p-page-fudiapp {
     .p-image {
@@ -22,7 +22,7 @@
       }
       .p-text {
         .fudi-text {
-          font-family: "Lato Reg";
+          font-family: "Lato Light";
           @include rem("font-size", 16);
           color: $cl-bl-style;
           margin-bottom: 20px;

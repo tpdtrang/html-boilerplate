@@ -1,11 +1,12 @@
 .footer-container {
   background-color: $bc-ft-style;
   .p-page-footer {
-    padding: 26px 0;
+    padding: 38px 0;
     .p-footer-left {
       .heading-6 {
         color: $cl-h6-style;
-        @include rem("font-size", 13);
+        @include rem("font-size", 14);
+        font-family: 'Lato Light';
       }
     }
     .p-footer-right {
@@ -17,7 +18,7 @@
       .heading-6 {
         color: $cl-h6-style;
         text-transform: uppercase;
-        @include rem("font-size", 13);
+        @include rem("font-size", 14);
         letter-spacing: 0.2rem;
         span {
           color: $cl-sp-style;

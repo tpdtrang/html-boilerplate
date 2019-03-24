@@ -1,9 +1,9 @@
 button {
     background-color: $bc-style;
-    padding: 10px 50px;
+    padding: 24px 90px;
     text-transform: uppercase;
     color: $cl-style;
-    font-size: 13px;
+    @include rem('font-size',18);
     border: 2px solid #fff;
     border-radius: 2px;
     &:hover {

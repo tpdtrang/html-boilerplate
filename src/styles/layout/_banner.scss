@@ -1,5 +1,6 @@
 .banner-container {
     position: relative;
+  height: 800px;
     .p-page-banner {
       .p-banner-text {
         position: absolute;
@@ -11,15 +12,16 @@
           font-style: italic;
           font-family: "Times New Roman", Times, serif;
           font-weight: 600;
-          @include rem("font-size", 24);
+          @include rem("font-size", 36);
         }
         .p-title {
           margin-bottom: 10px;
           .heading-2 {
+            font-family: 'Lato Bold';
             text-transform: uppercase;
             color: #fff;
             font-weight: 600;
-            @include rem("font-size", 70);
+            @include rem("font-size", 100);
             // letter-spacing: 0.3rem;
           }
         }
@@ -30,7 +32,7 @@
           .text {
             color: $cl-style;
             text-transform: uppercase;
-            @include rem("font-size", 10);
+            @include rem("font-size", 14);
             .link-text{
               color: $cl-style;
               text-decoration: underline;
